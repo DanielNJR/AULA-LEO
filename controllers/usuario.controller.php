@@ -4,5 +4,5 @@ function usuarioController(){
   $usuarios = usuarioService();
   echo "8. Controller recebeu .<br>";
   echo "Usuarios encontrados:<br>;
-  foreach {$usuarios as $usuario) {
+  foreach ($usuarios as $usuario) {
     echo "- " .$usuarios . "<br>";
